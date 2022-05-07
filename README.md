@@ -15,27 +15,27 @@ Then head over to [the python website](https://www.python.org/downloads/) to dow
 
 Once that'd done, you can check that it was successful by opening your terminal:
 
-Mac:
+### Mac:
 Keyboard shortcut is "command + spacebar" then search "terminal".
 
-'''
+"""
 python3 --version
-'''
+"""
 
 
-Windows:
+### Windows:
 Keyboard shortcut is "ctrl + alt + w"
 
-'''
+"""
 python --version
-'''
+"""
 
-Linux:
+### Linux:
 Keyboard shortcut is "ctrl + alt + t"
 
-'''
+"""
 python --version
-'''
+"""
 
 
 ## Contributing
