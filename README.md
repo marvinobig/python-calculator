@@ -13,7 +13,7 @@ First download project from Github by going over to the green 'code' button and 
 
 Then head over to [the python website](https://www.python.org/downloads/) to download the latest version of python.
 
-Once that'd done, you can check that it was successful by opening your terminal:
+Once that's done, you can check that it was successful by opening your terminal:
 
 ### Mac:
 Keyboard shortcut is "command + spacebar" then search "terminal".
