@@ -18,24 +18,24 @@ Once that'd done, you can check that it was successful by opening your terminal:
 ### Mac:
 Keyboard shortcut is "command + spacebar" then search "terminal".
 
-"""
+```
 python3 --version
-"""
+```
 
 
 ### Windows:
 Keyboard shortcut is "ctrl + alt + w"
 
-"""
+```
 python --version
-"""
+```
 
 ### Linux:
 Keyboard shortcut is "ctrl + alt + t"
 
-"""
+```
 python --version
-"""
+```
 
 
 ## Contributing
