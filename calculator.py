@@ -1,59 +1,37 @@
-def welcome():
-    print("-" * 100)
-    print("-" * 100)
-    print("""Welcome to The PyCalc
-    Use this calculator to perform as many simple maths calculations as you want.""")
-    print("-" * 100)
-    print("-" * 100)
+from intro import welcome
+from intro import seperator
+from operations import add
+from operations import minus
+from operations import divide
+from operations import multiply
 
 welcome()
 
-def add(first, second):
-    print(f"{first} + {second} is: {first + second}")
-
-def minus(first, second):
-    print(f"{first} - {second} is: {first - second}")
-
-def divide(first, second):
-    print(f"{first} ÷ {second} is: {first // second}")
-
-def multiply(first, second):
-    print(f"{first} x {second} is: {first * second}")
-
 
 while True:
-    print("-" * 20)
-    print("-" * 20)
-    
+    seperator()
+
     firstNum = int(input("Enter your first number: "))
     secondNum = int(input("Enter your second number: "))
 
     operation = input("What operation do you want to perform on the number? (add/minus/divide/multiply)  ")
 
     if operation == "add":
-        print("-" * 20)
-        print("-" * 20)
+        seperator()
         add(firstNum, secondNum)
-        print("-" * 20)
-        print("-" * 20)
+        seperator()
     elif operation == "minus":
-        print("-" * 20)
-        print("-" * 20)
+        seperator()
         minus(firstNum, secondNum)
-        print("-" * 20)
-        print("-" * 20)
+        seperator()
     elif operation == "divide":
-        print("-" * 20)
-        print("-" * 20)
+        seperator()
         divide(firstNum, secondNum)
-        print("-" * 20)
-        print("-" * 20)
+        seperator()
     elif operation == "multiply":
-        print("-" * 20)
-        print("-" * 20)
+        seperator()
         multiply(firstNum, secondNum)
-        print("-" * 20)
-        print("-" * 20)
+        seperator()
     else:
         print("No valid operation choosen")
 
