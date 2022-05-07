@@ -1,15 +1,11 @@
-from intro import welcome
-from intro import seperator
-from operations import add
-from operations import minus
-from operations import divide
-from operations import multiply
+import intro
+import operations
 
-welcome()
+intro.welcome()
 
 
 while True:
-    seperator()
+    intro.seperator()
 
     firstNum = int(input("Enter your first number: "))
     secondNum = int(input("Enter your second number: "))
@@ -17,21 +13,21 @@ while True:
     operation = input("What operation do you want to perform on the number? (add/minus/divide/multiply)  ")
 
     if operation == "add":
-        seperator()
-        add(firstNum, secondNum)
-        seperator()
+        intro.seperator()
+        operations.add(firstNum, secondNum)
+        intro.seperator()
     elif operation == "minus":
-        seperator()
-        minus(firstNum, secondNum)
-        seperator()
+        intro.seperator()
+        operations.minus(firstNum, secondNum)
+        intro.seperator()
     elif operation == "divide":
-        seperator()
-        divide(firstNum, secondNum)
-        seperator()
+        intro.seperator()
+        operations.divide(firstNum, secondNum)
+        intro.seperator()
     elif operation == "multiply":
-        seperator()
-        multiply(firstNum, secondNum)
-        seperator()
+        intro.seperator()
+        operations.multiply(firstNum, secondNum)
+        intro.seperator()
     else:
         print("No valid operation choosen")
 
