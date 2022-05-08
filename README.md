@@ -1,6 +1,9 @@
 # Python Calculator
 To help me learn python, I built a terminal calculator that allows you to do simple maths calculations like adding, subtracting, dividing and multiplying.
 
+## Demonstration
+![Pysum Demonstration](demonstration/pycalc.gif)
+
 ## Features
 - Add, subtract, divide & multiply.
 
@@ -37,6 +40,10 @@ Keyboard shortcut is "ctrl + alt + t"
 python --version
 ```
 
+### Run application
+```
+python3 calculator.py
+```
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
