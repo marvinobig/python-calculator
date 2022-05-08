@@ -7,11 +7,14 @@ intro.welcome()
 while True:
     intro.seperator()
 
-    firstNum = int(input("Enter your first number: "))
-    secondNum = int(input("Enter your second number: "))
-
-    operation = input("What operation do you want to perform on the number? (add/minus/divide/multiply)  ")
-
+    try:
+        firstNum = int(input("Enter your first number: "))
+        secondNum = int(input("Enter your second number: "))
+        operation = input("What operation do you want to perform on the number? (add/minus/divide/multiply)  ")
+    except ValueError:
+        print("Wrong value, bye")
+        quit()
+        
     if operation == "add":
         intro.seperator()
         operations.add(firstNum, secondNum)
